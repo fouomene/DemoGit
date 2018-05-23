@@ -24,10 +24,17 @@ public class Service implements IService {
 		return 0;
 	}
 
+	/* (non-Javadoc)
+	 * @see com.objis.cameroun.service.IService#produit(int, int)
+	 * Cette méthode permet d'effectuer le produit de deux entiers a et b par Maurain
+	 */
 	@Override
 	public int produit(int a, int b) {
-		// TODO Auto-generated method stub
-		return 0;
+	       
+		int resultat;
+		resultat = a * b;
+		return resultat;
+		
 	}
 
 	@Override
