@@ -8,10 +8,15 @@ public class Service implements IService {
 		// TODO Auto-generated constructor stub
 	}
 
+	/* (non-Javadoc)
+	 * @see com.objis.cameroun.service.IService#somme(int, int)
+	 * La methode permet de calculer la somme de 2 entiers
+	 * Methode implementée par Cyrille
+	 */
 	@Override
 	public int somme(int a, int b) {
-		// TODO Auto-generated method stub
-		return 0;
+		int som = a + b;
+		return som;
 	}
 
 	@Override
@@ -33,10 +38,17 @@ public class Service implements IService {
 			return quotient;
 	}
 
+	/* (non-Javadoc)
+	 * @see com.objis.cameroun.service.IService#produit(int, int)
+	 * Cette méthode permet d'effectuer le produit de deux entiers a et b par Maurain
+	 */
 	@Override
 	public int produit(int a, int b) {
-		// TODO Auto-generated method stub
-		return 0;
+	       
+		int resultat;
+		resultat = a * b;
+		return resultat;
+		
 	}
 
 	/* (non-Javadoc)
@@ -67,10 +79,14 @@ public class Service implements IService {
 		return montant/655;
 	}
 
+	/* (non-Javadoc)
+	 * @see com.objis.cameroun.service.IService#perimetreCarre(int)
+	 * la methode permet de calculer le perimetre du carre fait par flaubert
+	 */
 	@Override
 	public int perimetreCarre(int cote) {
-		// TODO Auto-generated method stub
-		return 0;
+		
+		return cote *4;
 	}
 
 	@Override
