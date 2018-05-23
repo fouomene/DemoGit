@@ -1,5 +1,7 @@
 package com.objis.cameroun.service;
 
+import java.rmi.RemoteException;
+
 public class Service implements IService {
 
 	public Service() {
@@ -18,10 +20,17 @@ public class Service implements IService {
 		return 0;
 	}
 
+	/* (non-Javadoc)
+	 * @see com.objis.cameroun.service.IService#division(int, int)
+	 * Méthode division qui permet de calculer le quotient des paramètres int a et int b
+	 * AUTEUR: Emmanuel Roussel
+	 */
 	@Override
+	
 	public int division(int a, int b) {
-		// TODO Auto-generated method stub
-		return 0;
+	
+		 	int quotient = a/b;
+			return quotient;
 	}
 
 	@Override
