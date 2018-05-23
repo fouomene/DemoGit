@@ -8,10 +8,15 @@ public class Service implements IService {
 		// TODO Auto-generated constructor stub
 	}
 
+	/* (non-Javadoc)
+	 * @see com.objis.cameroun.service.IService#somme(int, int)
+	 * La methode permet de calculer la somme de 2 entiers
+	 * Methode implementée par Cyrille
+	 */
 	@Override
 	public int somme(int a, int b) {
-		// TODO Auto-generated method stub
-		return 0;
+		int som = a + b;
+		return som;
 	}
 
 	@Override
