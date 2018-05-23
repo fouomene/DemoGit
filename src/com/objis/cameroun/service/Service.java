@@ -54,10 +54,20 @@ public class Service implements IService {
 		return 0;
 	}
 
+	/* (non-Javadoc)
+	 * @see com.objis.cameroun.service.IService#calculBenefice(int, int)
+	 * methode permet de calculer le benefice
+	 author stephanie ntamack
+	 */
 	@Override
 	public int calculBenefice(int prixAchat, int prixVente) {
-		// TODO Auto-generated method stub
-		return 0;
+		
+		
+		int benefice;
+		
+		benefice = prixVente - prixAchat;
+		
+		return benefice;
 	}
 
 }
