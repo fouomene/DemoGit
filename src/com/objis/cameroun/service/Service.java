@@ -42,10 +42,15 @@ public class Service implements IService {
 		return 0;
 	}
 
-	@Override
+	/* (non-Javadoc)
+	 * @see com.objis.cameroun.service.IService#conversionFCFAEURO(int)
+	 * methode permettant de convertir le francs cfa en euro
+	 */
+	@Override 
 	public int conversionFCFAEURO(int montant) {
-		// TODO Auto-generated method stub
-		return 0;
+		
+		
+		return montant/655;
 	}
 
 	@Override
