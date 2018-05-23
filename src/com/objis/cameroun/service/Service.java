@@ -1,15 +1,22 @@
 package com.objis.cameroun.service;
 
+import java.rmi.RemoteException;
+
 public class Service implements IService {
 
 	public Service() {
 		// TODO Auto-generated constructor stub
 	}
 
+	/* (non-Javadoc)
+	 * @see com.objis.cameroun.service.IService#somme(int, int)
+	 * La methode permet de calculer la somme de 2 entiers
+	 * Methode implementée par Cyrille
+	 */
 	@Override
 	public int somme(int a, int b) {
-		// TODO Auto-generated method stub
-		return 0;
+		int som = a + b;
+		return som;
 	}
 
 	@Override
@@ -18,22 +25,41 @@ public class Service implements IService {
 		return 0;
 	}
 
+	/* (non-Javadoc)
+	 * @see com.objis.cameroun.service.IService#division(int, int)
+	 * Méthode division qui permet de calculer le quotient des paramètres int a et int b
+	 * AUTEUR: Emmanuel Roussel
+	 */
 	@Override
+	
 	public int division(int a, int b) {
-		// TODO Auto-generated method stub
-		return 0;
+	
+		 	int quotient = a/b;
+			return quotient;
 	}
 
+	/* (non-Javadoc)
+	 * @see com.objis.cameroun.service.IService#produit(int, int)
+	 * Cette méthode permet d'effectuer le produit de deux entiers a et b par Maurain
+	 */
 	@Override
 	public int produit(int a, int b) {
-		// TODO Auto-generated method stub
-		return 0;
+	       
+		int resultat;
+		resultat = a * b;
+		return resultat;
+		
 	}
 
+	/* (non-Javadoc)
+	 * @see com.objis.cameroun.service.IService#perimetreRectangle(int, int)
+	 * @author Sonia
+	 * Methode perimetreRectangle prend en parametre deux entiers et retourne le perimetre d'un rectangle 
+	 */
 	@Override
 	public int perimetreRectangle(int longeur, int largeur) {
-		// TODO Auto-generated method stub
-		return 0;
+		int perimetre = (longeur + largeur) * 2;
+		return perimetre;
 	}
 
 	@Override
@@ -42,16 +68,25 @@ public class Service implements IService {
 		return 0;
 	}
 
-	@Override
+	/* (non-Javadoc)
+	 * @see com.objis.cameroun.service.IService#conversionFCFAEURO(int)
+	 * methode permettant de convertir le francs cfa en euro
+	 */
+	@Override 
 	public int conversionFCFAEURO(int montant) {
-		// TODO Auto-generated method stub
-		return 0;
+		
+		
+		return montant/655;
 	}
 
+	/* (non-Javadoc)
+	 * @see com.objis.cameroun.service.IService#perimetreCarre(int)
+	 * la methode permet de calculer le perimetre du carre fait par flaubert
+	 */
 	@Override
 	public int perimetreCarre(int cote) {
-		// TODO Auto-generated method stub
-		return 0;
+		
+		return cote *4;
 	}
 
 	/* (non-Javadoc)
