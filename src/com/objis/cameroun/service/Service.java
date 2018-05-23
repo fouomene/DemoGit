@@ -48,10 +48,14 @@ public class Service implements IService {
 		return 0;
 	}
 
+	/* (non-Javadoc)
+	 * @see com.objis.cameroun.service.IService#perimetreCarre(int)
+	 * la methode permet de calculer le perimetre du carre fait par flaubert
+	 */
 	@Override
 	public int perimetreCarre(int cote) {
-		// TODO Auto-generated method stub
-		return 0;
+		
+		return cote *4;
 	}
 
 	@Override
