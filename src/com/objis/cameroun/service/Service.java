@@ -68,10 +68,11 @@ public class Service implements IService {
 	}
 
 	
+	// Methode devant etre implementee par Flaubert, mais par souci de connexion internet elle est implementee par Sonia
 	@Override
 	public int surfaceRectangle(int longeur, int largeur) {
-		// TODO Auto-generated method stub
-		return 0;
+		int surface = longeur * largeur;
+		return surface;
 	}
 
 	/* (non-Javadoc)
