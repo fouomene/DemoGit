@@ -21,9 +21,9 @@ public class Service implements IService {
 
 	/* Cette methode devrait etre implementée par Frank, mais par soucis de connexion internet, Mr Fouomene a implémenté*/
 	@Override
-	public int soustration(int a, int b) {
+	public double soustration(double a, double b) {
 		
-		int resultat;
+		double resultat;
 		
 		resultat = a - b;
 		
