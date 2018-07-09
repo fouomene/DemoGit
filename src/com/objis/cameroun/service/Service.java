@@ -19,10 +19,15 @@ public class Service implements IService {
 		return som;
 	}
 
+	/* Cette methode devrait etre implementée par Frank, mais par soucis de connexion internet, Mr Fouomene a implémenté*/
 	@Override
 	public int soustration(int a, int b) {
-		// TODO Auto-generated method stub
-		return 0;
+		
+		int resultat;
+		
+		resultat = a - b;
+		
+		return resultat;
 	}
 
 	/* (non-Javadoc)
@@ -62,6 +67,7 @@ public class Service implements IService {
 		return perimetre;
 	}
 
+	
 	@Override
 	public int surfaceRectangle(int longeur, int largeur) {
 		// TODO Auto-generated method stub
