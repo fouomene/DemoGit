@@ -35,6 +35,9 @@ public interface IService {
 	//sera implementée par Thierry
 	public int circonferenceCercle(int rayon);
 	
+	//sera implementée par Bodoing
+		public int sommeTripple(int a, int b, int c);
+	
 	
 	
 	
