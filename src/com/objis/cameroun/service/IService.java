@@ -2,31 +2,31 @@ package com.objis.cameroun.service;
 
 public interface IService {
 	
-	//sera implementée par Cyrille
+	//sera implementée par Youssouf
 	public int somme(int a, int b);
 	
-	//sera implementée par Frank
+	//sera implementée par Kevin
 	public int soustration(int a, int b);
 	
-	//sera implementée par Emmanuel
+	//sera implementée par Yvan
 	public int division(int a, int b);
 	
-	//sera implementée par Maurain
+	//sera implementée par Alain
 	public int produit(int a, int b);
 	
-	//sera implementée par Sonia
+	//sera implementée par Vanel
 	public int perimetreRectangle(int longeur, int largeur);
 	
-	//sera implementée par Flaubert
+	//sera implementée par Hisseine
 	public int surfaceRectangle(int longeur, int largeur);
 	
-	//sera implementée par Axel
+	//sera implementée par Brandon
 	public int conversionFCFAEURO(int montant);
 	
-	//sera implementée par Flaubert
+	//sera implementée par Gaetan
 	public int perimetreCarre(int cote);
 	
-	//sera implementée par Stephanie
+	//sera implementée par Mr NGAUSS
 	public int calculBenefice(int prixAchat, int prixVente);
 	
 	
