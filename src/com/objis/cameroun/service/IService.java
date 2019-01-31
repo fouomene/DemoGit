@@ -30,7 +30,7 @@ public interface IService {
 	public int calculBenefice(int prixAchat, int prixVente);
 	
 	//sera implement�e par Arsene
-	public int surfaceCercle(int rayon);
+	public double surfaceCercle(int rayon);
 	
 	//sera implement�e par Thierry
 	public double circonferenceCercle(int rayon);
