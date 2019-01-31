@@ -29,6 +29,11 @@ public interface IService {
 	//sera implementée par Mr NGAUSS
 	public int calculBenefice(int prixAchat, int prixVente);
 	
+	//sera implementée par Arsene
+	public int surfaceCercle(int rayon);
+	
+	//sera implementée par Thierry
+	public int circonferenceCercle(int rayon);
 	
 	
 	
