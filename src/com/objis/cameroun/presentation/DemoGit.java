@@ -16,7 +16,7 @@ public class DemoGit {
 		
 		System.out.println(" La conversion de 10000 FCFA en EURO = "+ traitement.conversionFCFAEURO(10000));
 		
-		System.out.println(" La Benefice d'un produit achter à 15000 et vendu à 20000  = "+ traitement.calculBenefice(15000, 20000));
+		System.out.println(" La Benefice d'un produit achter ï¿½ 15000 et vendu ï¿½ 20000  = "+ traitement.calculBenefice(15000, 20000));
 		
 		System.out.println(" La Somme de 10 et 30 = "+ traitement.somme(10,30));
 		
