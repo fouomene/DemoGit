@@ -14,8 +14,8 @@ public class Service implements IService {
 
 	@Override
 	public int soustration(int a, int b) {
-		// TODO Auto-generated method stub
-		return 0;
+		// method build by jamal 
+		return a - b;
 	}
 
 	@Override
