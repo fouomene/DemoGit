@@ -69,9 +69,9 @@ public class Service implements IService {
 	}
 
 	@Override
-	public int circonferenceCercle(int rayon) {
+	public double circonferenceCercle(int rayon) {
 		// TODO Auto-generated method stub
-		return 0;
+		return (2 * Math.PI * rayon);
 	}
 
 	@Override

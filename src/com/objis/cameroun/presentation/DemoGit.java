@@ -16,7 +16,7 @@ public class DemoGit {
 		
 		System.out.println(" La conversion de 10000 FCFA en EURO = "+ traitement.conversionFCFAEURO(10000));
 		
-		System.out.println(" La Benefice d'un produit achter à 15000 et vendu à 20000  = "+ traitement.calculBenefice(15000, 20000));
+		System.out.println(" La Benefice d'un produit achter ï¿½ 15000 et vendu ï¿½ 20000  = "+ traitement.calculBenefice(15000, 20000));
 		
 		System.out.println(" La Somme de 10 et 30 = "+ traitement.somme(10,30));
 		
@@ -28,7 +28,11 @@ public class DemoGit {
 		
 		System.out.println(" La Produit de 10 et 15 = "+ traitement.produit(10, 15));
 		
+<<<<<<< HEAD
+		System.out.println(" La circonfÃ©rence du cercle de rayon 2 = "+ traitement.circonferenceCercle(2));
+=======
 		System.out.println(" La Produit de 10 et 15 = "+ traitement.soustration(10, 15));
+>>>>>>> 4b787f4d0c4ef5cab052d7025970574a11a8e278
 	
 	}
 
