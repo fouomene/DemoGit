@@ -28,11 +28,10 @@ public class DemoGit {
 		
 		System.out.println(" La Produit de 10 et 15 = "+ traitement.produit(10, 15));
 		
-<<<<<<< HEAD
+
 		System.out.println(" La circonférence du cercle de rayon 2 = "+ traitement.circonferenceCercle(2));
-=======
 		System.out.println(" La Produit de 10 et 15 = "+ traitement.soustration(10, 15));
->>>>>>> 4b787f4d0c4ef5cab052d7025970574a11a8e278
+
 	
 	}
 
