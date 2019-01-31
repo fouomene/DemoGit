@@ -58,8 +58,10 @@ public class Service implements IService {
 
 	@Override
 	public int calculBenefice(int prixAchat, int prixVente) {
-		// TODO Auto-generated method stub
-		return 0;
+		
+		int benefice = (prixVente - prixAchat);
+		
+		return benefice;
 	}
 
 	@Override
