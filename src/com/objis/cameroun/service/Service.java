@@ -41,7 +41,7 @@ public class Service implements IService {
 	@Override
 	public int surfaceRectangle(int longeur, int largeur) {
 		// TODO Auto-generated method stub
-		return 0;
+		return longeur * largeur;
 	}
 
 	@Override
