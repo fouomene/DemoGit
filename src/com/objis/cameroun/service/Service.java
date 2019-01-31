@@ -8,8 +8,8 @@ public class Service implements IService {
 
 	@Override
 	public int somme(int a, int b) {
-		// TODO Auto-generated method stub
-		return 0;
+		
+		return a+b;
 	}
 
 	@Override
