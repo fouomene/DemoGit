@@ -2,38 +2,38 @@ package com.objis.cameroun.service;
 
 public interface IService {
 	
-	//sera implementée par Youssouf
+	//sera implementï¿½e par Youssouf
 	public int somme(int a, int b);
 	
-	//sera implementée par Kevin
+	//sera implementï¿½e par Kevin
 	public int soustration(int a, int b);
 	
-	//sera implementée par Yvan
+	//sera implementï¿½e par Yvan
 	public int division(int a, int b);
 	
-	//sera implementée par Alain
+	//sera implementï¿½e par Alain
 	public int produit(int a, int b);
 	
-	//sera implementée par Vanel
+	//sera implementï¿½e par Vanel
 	public int perimetreRectangle(int longeur, int largeur);
 	
-	//sera implementée par Hisseine
+	//sera implementï¿½e par Hisseine
 	public int surfaceRectangle(int longeur, int largeur);
 	
-	//sera implementée par Brandon
+	//sera implementï¿½e par Brandon
 	public int conversionFCFAEURO(int montant);
 	
-	//sera implementée par Gaetan
+	//sera implementï¿½e par Gaetan
 	public int perimetreCarre(int cote);
 	
-	//sera implementée par Mr NGAUSS
+	//sera implementï¿½e par Mr NGAUSS
 	public int calculBenefice(int prixAchat, int prixVente);
 	
-	//sera implementée par Arsene
+	//sera implementï¿½e par Arsene
 	public int surfaceCercle(int rayon);
 	
-	//sera implementée par Thierry
-	public int circonferenceCercle(int rayon);
+	//sera implementï¿½e par Thierry
+	public double circonferenceCercle(int rayon);
 	
 	//sera implementée par Bodoing
 		public int sommeTripple(int a, int b, int c);
