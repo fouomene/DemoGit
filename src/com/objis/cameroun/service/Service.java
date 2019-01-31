@@ -1,7 +1,5 @@
 package com.objis.cameroun.service;
 
-
-
 public class Service implements IService {
 
 	public Service() {
@@ -46,8 +44,12 @@ public class Service implements IService {
 
 	@Override
 	public int conversionFCFAEURO(int montant) {
-		// TODO Auto-generated method stub
-		return 0;
+		
+		int montantEuro;
+		
+		montantEuro=montant*650;
+		
+		return montantEuro;
 	}
 
 	@Override
