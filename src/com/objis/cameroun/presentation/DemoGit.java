@@ -27,6 +27,8 @@ public class DemoGit {
 		System.out.println(" Le Perimetre du carre ayant pour cote 3 = "+ traitement.perimetreCarre(3));
 		
 		System.out.println(" La Produit de 10 et 15 = "+ traitement.produit(10, 15));
+		
+		System.out.println(" La circonférence du cercle de rayon 2 = "+ traitement.circonferenceCercle(2));
 	
 	}
 
