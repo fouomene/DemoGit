@@ -81,9 +81,10 @@ public class Service implements IService {
 	}
 
 	@Override
+	//Methode qui renvoie la somme de ttrois nombres.
 	public int sommeTripple(int a, int b, int c) {
-		// TODO Auto-generated method stub
-		return 0;
+		int resultat=a+b+c;
+		return resultat;
 	}
 
 	
