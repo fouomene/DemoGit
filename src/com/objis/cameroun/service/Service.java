@@ -74,6 +74,12 @@ public class Service implements IService {
 		return (2 * Math.PI * rayon);
 	}
 
+	@Override
+	public int sommeTripple(int a, int b, int c) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
 	
 	
 
