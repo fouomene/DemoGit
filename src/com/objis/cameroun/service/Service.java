@@ -27,9 +27,9 @@ public class Service implements IService {
 	@Override
 	public int produit(int a, int b) {
 		// TODO Auto-generated method stub
-		double produit;
+		int produit = a*b;
 		
-		return produit(a, b);
+		return produit;
 	}
 
 	@Override
