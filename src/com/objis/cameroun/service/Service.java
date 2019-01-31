@@ -76,6 +76,12 @@ public class Service implements IService {
 		return 0;
 	}
 
+	@Override
+	public int sommeTripple(int a, int b, int c) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
 	
 	
 
